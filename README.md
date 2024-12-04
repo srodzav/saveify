@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+# Saveify
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a web application that integrates with the Spotify API, allowing users to search for songs, manage favorites, and view their Spotify profile.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Spotify OAuth Login**: Secure login using Spotify's API.
+- **Song Search**: Search for songs and view details such as album covers and previews.
+- **Favorites Management**: Add or remove songs from favorites (stored locally in the browser).
+- **Profile Modal**: Displays user profile information (name, email, country, and profile picture) after login.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies Used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**React.js**
+  - Core framework for building dynamic and responsive user interfaces
+  - Utilized functional components with hooks (useState, useEffect) for state management and side effects.
 
-### `npm test`
+**React-Bootstrap**
+  - Simplified integration of Bootstrap's powerful components with React.
+  - Styling and layout management for tables, modals, alerts, and buttons.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Bootstrap Icons**
+  - Used for icons, enhancing the UI with lightweight and consistent iconography.
 
-### `npm run build`
+# Deployment Instructions
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**Development Environment**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+  Tested locally with Node.js and React development tools.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+  Built using
+   ```
+    npm run build
+   ```
 
-### `npm run eject`
+**Hosting**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+  Static assets deployed to a custom subdomain using a secure hosting solution.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+  Configured Redirect URIs to ensure seamless Spotify login integration.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Usage
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   Visit **saveify.sebastianrdz.com**.\
+   Log in using your Spotify account.\
+   Search for songs or manage your favorites.\
+   View your profile in the modal after logging in.
 
-## Learn More
+## Notes
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   The app requires a Spotify Developer account to configure the CLIENT_ID and CLIENT_SECRET.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Author
 
-### Code Splitting
+**Sebastián Rodríguez**
+- [LinkedIn](https://www.linkedin.com/in/sebastian-rodriguez-zavala/)
+- [Web](https://sebastianrdz.com)
+- [Email](mailto:contact@sebastianrdz.com)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is for personal use and is not licensed for commercial distribution.
